@@ -242,7 +242,7 @@ function create_config( )
       "version"
       --"arabic"
      },
-    sudo_users = {158990680},--ایدی خود را در کادر روبرو بجای 158990680 بگذارید
+    sudo_users = {53406884},--ایدی خود را در کادر روبرو بجای 158990680 بگذارید
     admin_users = {},
     disabled_channels = {}
   }
@@ -311,7 +311,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 53406884
 now = os.time()
 math.randomseed(now)
 started = false
